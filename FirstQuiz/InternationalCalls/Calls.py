@@ -1,7 +1,7 @@
-##Programa que calcula el costo total de una llamada##
+#Programa que calcula el costo total de una llamada##
 
-destino = input("Ingresa el destino de la llamada:")
-duracion = float(input("Ingrese la duracion en minutos de la llamada:"))
+destino = input("Ingresa el destino de la llamada: ")
+duracion = float(input("Ingrese la duracion en minutos de la llamada: "))
 
 if destino == "Estados Unidos":
     costo_por_minuto = 900
