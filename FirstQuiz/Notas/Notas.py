@@ -12,18 +12,18 @@ promedio = (nota1 + nota2 + nota3 + nota4) / 4
 
 if 4 <= promedio <= 5:
     calificacion = "Excelente"
-    descuento = 0.20  # 20% de descuento
+    descuento = 0.20
 elif 3 <= promedio < 4:
     calificacion = "Bien"
-    descuento = 0.00  # Sin descuento
+    descuento = 0.00
 else:
     calificacion = "Deficiente"
-    descuento = 0.00  # Sin descuento
+    descuento = 0.00
 
 
 costo_final = costo_matricula * (1 - descuento)
 
 
-print(f"Promedio del estudiante: {promedio:.2f}")
+print(f"Promedio del estudiante: {promedio:}")
 print(f"Calificación de rendimiento: {calificacion}")
-print(f"Monto final a pagar por la matrícula: ${costo_final:.2f}")
+print(f"Monto final a pagar por la matrícula: ${costo_final:}")
